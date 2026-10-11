@@ -5,11 +5,7 @@ Keywords: Customer support automation, email automation, Langchain, Langgraph, A
 Author: kaymen99
 -->
 
-# 🚀 **Customer Support Email Automation with AI Agents and RAG**
-
-## 📩 **FULL TUTORIAL: Build AI-Powered Email Automation Using AI Agents + RAG!** 👉 [Read Now](https://dev.to/kaymen99/boost-customer-support-ai-agents-langgraph-and-rag-for-email-automation-21hj) 🎯   
-
-![customer-support-ai-automation](https://github.com/user-attachments/assets/eb061276-0579-4e28-9360-482c8da33a9d)
+# 🚀 **Customer Support Email Automation with AI Agents and RAG** 
 
 ## **Introduction**  
 
@@ -74,8 +70,8 @@ This is the detailed flow of the system:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/kaymen99/langgraph-email-automation.git
-   cd langgraph-email-automation
+   git clone https://github.com/Praaanaav/Email-Automation-langgraph
+   cd Email-Automation-langgraph
    ```
 
 2. **Create and activate a virtual environment:**
@@ -115,29 +111,5 @@ This is the detailed flow of the system:
 
    The application will start checking for new emails, categorizing them, synthesizing queries, drafting responses, and verifying email quality.
 
-2. **Deploy as API:** you can deploy the workflow as an API using Langserve and FastAPI by running the command below:
-
-   ```sh
-   python deploy_api.py
-   ```
-
-   The workflow api will be running on `localhost:8000`, you can consult the API docs on `/docs` and you can use the langsergve playground (on the route `/playground`) to test it out.
 
 
-### Customization
-
-You can customize the behavior of each agent by modifying the corresponding methods in the `Nodes` class or the agents prompt `prompts` located in the `src` directory.
-
-You can also add your own agency data into the `data` folder, then you must create your own vector store by running (update first the data path):
-
-```sh
-python create_index.py
-```
-
-### Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any changes.
-
-### Contact
-
-If you have any questions or suggestions, feel free to contact me at `aymenMir1001@gmail.com`.
