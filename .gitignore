@@ -1,0 +1,14 @@
+@"
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+"@ | Add-Content .gitignore
